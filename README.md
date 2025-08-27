@@ -16,3 +16,4 @@ Then, activate the "IMMS-AB" environment and enter into the workspace.
 conda activate IMMS-AB
 ```
 ## Usage
+The data is in the data folder, the model is in the train folder, and the comparison model directory shows the performance of other models on the same dataset.
