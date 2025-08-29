@@ -24,7 +24,7 @@ The following are the functions of the input parameters of the model：
 
 ```
 num_features = number of features, also known as the d_model parameter of Transformer
-num_classes = number of categories. As it is a predicted result and also an amino acid, the word list size is 30
+num_classes = number of categories.
 nhead = number of heads in Transformer
 num_coder_layers = The number of layers in the Transformer encoder
 num_decoder_layers = the number of layers in the Transformer decoder
