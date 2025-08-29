@@ -23,14 +23,14 @@ The specific training process is described in train.py, while model. py represen
 The following are the functions of the input parameters of the model：
 
 ```
-num_features=number of features, also known as the d_model parameter of Transformer
-num_classes=number of categories. As it is a predicted result and also an amino acid, the word list size is 30
-nhead=number of heads in Transformer
-num_coder_layers=The number of layers in the Transformer encoder
-num_decoder_layers=the number of layers in the Transformer decoder
-learning_rate=learning rate
-seed=random seed
-train_tsv=dataset used for training and testing
+num_features = number of features, also known as the d_model parameter of Transformer
+num_classes = number of categories. As it is a predicted result and also an amino acid, the word list size is 30
+nhead = number of heads in Transformer
+num_coder_layers = The number of layers in the Transformer encoder
+num_decoder_layers = the number of layers in the Transformer decoder
+learning_rate = learning rate
+seed = random seed
+train_tsv = dataset used for training and testing
 ```
 
 The predict.py provides a method for predicting the affinity of a single antigen antibody sequence pair, with the output being the affinity between the two.
