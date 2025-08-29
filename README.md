@@ -17,8 +17,11 @@ conda activate IMMS-AB
 ```
 ## Usage
 The data is in the data folder, the model is in the train folder, and the comparison model directory shows the performance of other models on the same dataset.
-The specific training process is described in train.exe, while model. py represents the model structure and provides a Jupyter notebook version for your use. Jupyter notebook provides complete data segmentation, model training, and testing processes.
+
+The specific training process is described in train.py, while model. py represents the model structure and provides a Jupyter notebook version for your use. Jupyter notebook provides complete data segmentation, model training, and testing processes.
+
 The following are the functions of the input parameters of the model：
+
 ```
 num_features=number of features, also known as the d_model parameter of Transformer
 num_classes=number of categories. As it is a predicted result and also an amino acid, the word list size is 30
@@ -29,4 +32,5 @@ learning_rate=learning rate
 seed=random seed
 train_tsv=dataset used for training and testing
 ```
+
 The predict.py provides a method for predicting the affinity of a single antigen antibody sequence pair, with the output being the affinity between the two.
